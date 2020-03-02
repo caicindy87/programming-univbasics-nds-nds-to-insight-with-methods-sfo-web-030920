@@ -30,6 +30,7 @@ end
 gross_sum
 end
   result = {}
+  while 
   result[directors_database[0][:name]] = gross_for_director(directors_database)
   result
 end
