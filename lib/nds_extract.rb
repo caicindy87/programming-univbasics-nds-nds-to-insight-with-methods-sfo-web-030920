@@ -29,9 +29,10 @@ def directors_totals(nds)
 end
 gross_sum
 end
-
   result = {}
-  
-  result[directors_database[0][:name]] = gross_for_director(directors_database)
+  movies_array_length = directors_database[i][:movies]
+  while i < movies_array_length.length do
+  result[directors_database[i][:name]] = gross_for_director(directors_database)
+end
   result
 end
