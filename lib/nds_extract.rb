@@ -14,8 +14,9 @@ def gross_for_director(director_data)
       inner_array_index += 1
      end
      row_index += 1
-     gross_sum
+     
     end
+    gross_sum
   end
  
 
