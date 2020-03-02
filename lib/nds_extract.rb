@@ -25,10 +25,13 @@ def gross_for_director(director_data)
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
    row_index = 0
+     name_array = []
      while row_index < directors_database.length do
-      directors_database[row_index][:name])
+      name_array.push(directors_database[row_index][:name])
       row_index += 1
      end
+     puts name_array
   result = {}
+  
   nil
 end
