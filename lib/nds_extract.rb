@@ -30,9 +30,7 @@ def directors_totals(nds)
   gross_sum
   end
   result = {}
-  i = 0
-  while i < directors_database.length
-  result[directors_database[i][:name]] = gross_for_director(directors_database)
+  directors_database[0][:name] = gross_for_director(directors_database)
   i += 1
   result
   end
