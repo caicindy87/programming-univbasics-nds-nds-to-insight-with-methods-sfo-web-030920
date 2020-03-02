@@ -14,7 +14,7 @@ def gross_for_director(directors_database)
       inner_array_index += 1
      end
      row_index += 1
-     gross_sum
+     puts gross_sum
     end
   end
  
