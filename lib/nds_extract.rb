@@ -20,19 +20,20 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   def gross_for_director(director_data)
-  gross_sum = 0
-  i = 0
-  movies_array_length = directors_database[i][:movies]
-  while i < movies_array_length.length do
-  gross_sum += movies_array_length[i][:worldwide_gross]
-  i += 1
-end
-gross_sum
-end
+    gross_sum = 0
+    i = 0
+    movies_array_length = directors_database[i][:movies]
+    while i < movies_array_length.length do
+    gross_sum += movies_array_length[i][:worldwide_gross]
+    i += 1
+    end
+  gross_sum
+  end
   result = {}
   i = 0
   while i < directors_database.length
   result[directors_database[i][:name]] = gross_for_director(directors_database)
   i += 1
   result
+  end
 end
