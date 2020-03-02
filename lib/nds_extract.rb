@@ -31,6 +31,6 @@ gross_sum
 end
 
   result = {}
-  result[directors_database[i][:name]] = gross_for_director(directors_database)
+  result[directors_database[0][:name]] = gross_for_director(directors_database)
   result
 end
