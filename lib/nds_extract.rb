@@ -46,6 +46,10 @@ def directors_totals(nds)
      puts gross_sum
     end
   result = {}
+  directors_database.length.times { |index|
+  result[name_array[index]] = totals_array[index]
   
-  nil
+  }
+
+  result
 end
