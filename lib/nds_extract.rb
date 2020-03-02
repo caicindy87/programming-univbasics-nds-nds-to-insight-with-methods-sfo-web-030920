@@ -15,7 +15,7 @@ def gross_for_director(director_data)
      end
      row_index += 1
     end
-    gross_sum
+    
 end
 
 # Write a method that, given an NDS creates a new Hash
