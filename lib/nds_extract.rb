@@ -5,7 +5,7 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   gross_sum = 0
-  gross_sum += directors_database[director_data][:movies][director_data][:worldwide_gross]
+  gross_sum += directors_database[0][:movies][0][:worldwide_gross]
   gross_sum
 end
 
