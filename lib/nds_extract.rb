@@ -31,8 +31,8 @@ gross_sum
 end
   result = {}
   i = 0
-  director_name = directors_database[i][:name]
-  while i < directors_database[i][:]
-  result[directors_database[0][:name]] = gross_for_director(directors_database)
+  while i < directors_database.length
+  result[directors_database[i][:name]] = gross_for_director(directors_database)
+  i += 1
   result
 end
