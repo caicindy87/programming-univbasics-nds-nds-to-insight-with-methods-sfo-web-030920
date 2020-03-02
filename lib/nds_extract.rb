@@ -19,8 +19,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  result = {
-    
-  }
+  result = {}
+  result[directors_database[]]
   nil
 end
